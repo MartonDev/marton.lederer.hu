@@ -114,14 +114,14 @@ h1, h2 {
 
 }
 
-.about, .experience, .projects {
+.about, .experience, .projects, .footer {
 
   padding: 70px 13vw;
   background-color: #000;
 
 }
 
-.about h1, .experience h1, .projects h1 {
+.about h1, .experience h1, .projects h1, .footer h1 {
 
   color: #fff;
   margin: 0 0 7px 0;
@@ -129,7 +129,7 @@ h1, h2 {
 
 }
 
-.about h1 span, .projects h1 span {
+.about h1 span, .projects h1 span, .footer h1 span {
 
   display: block;
   width: 33px;
@@ -138,21 +138,27 @@ h1, h2 {
 
 }
 
-.about p, .projects p {
+.about p, .projects p, .footer p {
 
   color: #fff;
   font-size: 18px;
 
 }
 
-.about p span, .projects p span {
+.footer p {
+
+  margin-bottom: 1px;
+
+}
+
+.about p span, .projects p span, .footer p span {
 
   border-bottom: 1px solid #1db954;
   margin-bottom: 2px;
 
 }
 
-.about p a, .projects p a {
+.about p a, .projects p a, .footer a {
 
   text-decoration: none;
   color: #1db954;
@@ -164,7 +170,7 @@ h1, h2 {
 
 }
 
-.about p a:hover, .projects p a:hover {
+.about p a:hover, .projects p a:hover, .footer a:hover {
 
   background-size: 2px 100%;
   color: #fff;
@@ -241,5 +247,36 @@ h1, h2 {
 .projects p {
 
   margin-top: 10px;
+
+}
+
+.footer {
+
+  padding-bottom: 10px;
+
+}
+
+.footer .left, .footer .right {
+
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+.footer .right {
+
+  float: right;
+  width: 40vw;
+
+}
+
+.footer .copyright {
+
+  color: rgba(29, 185, 84, .6);
+  padding-top: 10px;
+  margin-top: 10px;
+  border-top: 1px solid rgba(29, 185, 84, .4);
+  font-size: 16px;
+  text-align: right;
 
 }
