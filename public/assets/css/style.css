@@ -280,3 +280,20 @@ h1, h2 {
   text-align: right;
 
 }
+
+@media screen and (max-width: 790px) {
+
+  .footer .left, .footer .right {
+
+    display: block;
+
+  }
+
+  .footer .right {
+
+    width: auto;
+    float: none;
+
+  }
+
+}
